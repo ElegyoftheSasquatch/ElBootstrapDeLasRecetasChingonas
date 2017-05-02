@@ -1,0 +1,109 @@
+
+#titulochido {
+	padding-top: 15px;
+	color: white;
+}
+
+#blk {
+	background-color: #333;
+	padding-right: 60px;
+	padding-left: 60px;
+	padding-bottom: 10px;
+}
+
+#tituloblanco {
+	color: white;
+}
+.hline { 
+	width:100%; 
+	height:1px; 
+	background: white; 
+}
+
+#jeder {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+input[type=text] {
+    width: 300px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('../public/img/lupa1.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+#Steps {
+	background-image: url("../public/img/table.jpg");
+	padding-left: 40px;
+
+}
+
+#Ing {
+		background-image: url("../public/img/table.jpg");
+	padding-left: 40px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(odd){
+	background-color: #333
+}
+tr:nth-child(even){
+	background-color: #222
+}
+textarea {
+	max-width: 100%;
+}
